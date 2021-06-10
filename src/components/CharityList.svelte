@@ -141,12 +141,13 @@
 
                                 <span class="xs-separetor"></span>
 
-                                <button 
+                                <a 
+                                href ="/donation/{charity.id}" 
                                 on:click={handleButton}
                                  data-toggle="modal" data-target="#exampleModal"
                                     class="btn btn-primary btn-block">
                                     Donate This Cause
-                                </button>
+                                </a>
                             </div><!-- .xs-item-content END -->
                         </div><!-- .xs-popular-item END -->
                     </div>
