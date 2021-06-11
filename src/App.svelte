@@ -4,6 +4,7 @@
 	import About from "./pages/About.svelte";
 	import Contact from "./pages/Contact.svelte";
 	import Donation from "./pages/Donation.svelte";
+	import NotFound from "./pages/NotFound.svelte";
 
 	let page, params;
 
@@ -19,6 +20,7 @@
 		() => (page = Donation)
 	);
 
+	router('/*', () => page = NotFound);
 	router.start();
 </script>
 
