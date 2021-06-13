@@ -1,4 +1,6 @@
 #Charity Svelte App
+This is a design and mockup for a charity funding application using Svelte as a frontend javascript framework
+
 
 Live version can be seen at https://charity-funding-ramasatriafb.netlify.app/
 
