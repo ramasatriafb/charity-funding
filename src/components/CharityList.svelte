@@ -151,7 +151,7 @@
 
                                 <a 
                                 href ="/donation/{charity.id}" 
-                                on:click={handleButton}
+                               
                                  data-toggle="modal" data-target="#exampleModal"
                                     class="btn btn-primary btn-block">
                                     Donate This Cause
